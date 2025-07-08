@@ -138,6 +138,6 @@ create_brochure("the live love laugh foundation", "https://www.thelivelovelaughf
 
 # Brochure Created as you can see in brochure.txt file
 
-with open("p1 created_brochure_Ollama.md", "w", encoding="utf-8") as f:
+with open("p2 created_brochure_Ollama.md", "w", encoding="utf-8") as f:
     f.write(result)
 

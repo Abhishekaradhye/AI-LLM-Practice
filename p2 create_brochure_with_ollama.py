@@ -132,6 +132,12 @@ def create_brochure(company_name, url):
 
 print(":)")
 
+
+
 create_brochure("the live love laugh foundation", "https://www.thelivelovelaughfoundation.org/")
 
 # Brochure Created as you can see in brochure.txt file
+
+with open("p1 created_brochure_Ollama.md", "w", encoding="utf-8") as f:
+    f.write(result)
+
